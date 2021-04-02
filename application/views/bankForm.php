@@ -17,10 +17,20 @@
         <form action="">
             <div class="form-group">
                 <label for="">บัญชีธนาคาร : </label>
-                <select name="bank" id="bank">
+                <select name="bank" id="bank" class="form-control">
                     <option value="กรุงไทย">กรุงไทย</option>
                     <option value="กรุงไทย">ไทยพาณิชย์</option>
                 </select>
+            </div>
+
+            <div class="form-group">
+                <label for="">หมายเลขบัญชี : </label>
+                <input class="form-control" type="text" name="bnaknum">
+            </div>
+            <div>
+                <button class="btn btn-primary">
+                    ตกลง
+                </button>
             </div>
         </form>
     </div>

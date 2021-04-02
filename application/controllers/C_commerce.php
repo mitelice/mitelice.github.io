@@ -1,7 +1,7 @@
 <?php
 class C_commerce extends CI_Controller {
-    function __construct( ) {
-        
+    function __construct() {
+        parent::__construct();
     }
 
     function bankForm() {
