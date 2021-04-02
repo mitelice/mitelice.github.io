@@ -1,9 +1,12 @@
 <?php
 class C_commerce extends CI_Controller {
+    function __construct( ) {
+        
+    }
+
     function bankForm() {
         // เรียกหน้า Form
-        echo "tset";
-        echo "test wirat";
+        $this->load->view('bankForm');
     }
 }
 ?>
